@@ -3,7 +3,7 @@
     <!-- 首页顶部 -->
     <div class="box-top">
       <div class="top-left">
-        <img src="../assets/home/图标.png" alt />
+        <img src="../assets/home/图标.png" />
       </div>
       <div class="top-content" @click="searchBtn">
         <img src="../assets/home/放大镜.png" class="content-search" />
@@ -14,29 +14,29 @@
       </div>
     </div>
 
-    <!-- 底部 -->
+    <!-- 首页底部 -->
     <div class="box-bottom">
       <div class="bottom-btn">
-        <img src="../assets/home/首页1.png" alt class="bottom-img" />
-        <div class="bottom-title">首页</div>
+        <img src="../assets/home/首页1.png"  class="bottom-img" />
+        <div class="bottom-title first-title">首页</div>
       </div>
       <div class="bottom-btn" @click="classifyBtn">
-        <img src="../assets/home/分类2.png" class="bottom-img" alt />
-        <div class="bottom-title">分类</div>
+        <img src="../assets/home/分类2.png" class="bottom-img" />
+        <div class="bottom-title second-title">分类</div>
       </div>
       <div class="bottom-btn">
-        <img src="../assets/home/星球2.png" class="bottom-img" alt />
+        <img src="../assets/home/星球2.png" class="bottom-img" />
         <div class="bottom-title">
           <a href="https://m.mi.com/discover">星球</a>
         </div>
       </div>
       <div class="bottom-btn bottom-count" @click="cartBtn">
-        <img src="../assets/home/购物车2.png" class="bottom-img" alt />
-        <div class="bottom-title">购物车</div>
+        <img src="../assets/home/购物车2.png" class="bottom-img" />
+        <div class="bottom-title third-title">购物车</div>
       </div>
       <div class="bottom-btn" @click="myBtn">
-        <img src="../assets/home/我的2.png" class="bottom-img" alt />
-        <div class="bottom-title">我的</div>
+        <img src="../assets/home/我的2.png" class="bottom-img" />
+        <div class="bottom-title forth-title">我的</div>
       </div>
     </div>
   </div>
@@ -74,7 +74,18 @@ export default {
 };
 </script>
  
-<style>
+<style >
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #747474;
+}
+
 /* 首页顶部 */
 .box-top {
     padding: 12px;
@@ -86,9 +97,11 @@ export default {
     align-items: center;
     text-align: center;
 }
+
 .box-top img {
-  width: 25px;
+  width: 21px;
 }
+
 .top-content {
     flex-grow: 1;
     margin: 0 10px;
@@ -96,27 +109,34 @@ export default {
     display: flex;
     flex-direction: row;
     background: rgb(255, 255, 255);
+    border: 1px solid #e5e5e5;
 }
+
 .content-input {
     border: none;
     outline: none;
     padding-left: 5px;
+    font-size: 15px;
 }
+
 .content-search {
     padding: 3px;
 }
+
 .top1 img {
     width: 20px;
 }
+
 .top-content1 {
     font-size: 13px;
-    color: #424242;
 }
 
 /* 首页底部 */
+
 .bottom-count{
     position: relative;
 }
+
 .countbox{
     position: absolute;
     width: 16px;
@@ -131,6 +151,17 @@ export default {
     justify-content: center;
     align-items: center;
 }
+
+.first-title{
+  color: #ff6700;
+}
+
+.second-title,
+.third-title,
+.forth-title{
+  color: #747474;
+}
+
 .box-bottom {
     position: fixed;
     bottom: 0;
@@ -143,9 +174,11 @@ export default {
     border-top: 1px solid rgb(221, 221, 221);
     box-shadow: 0px -5px 10px rgb(221, 221, 221);
 }
+
 .bottom-img {
     width: 20px;
 }
+
 .bottom-btn {
     width: 20%;
     flex-shrink: 0;
@@ -154,9 +187,9 @@ export default {
     flex-direction: column;
     align-items: center;
 }
+
 .bottom-title {
     font-size: 12px;
-    color: #747474;
 }
 
 .box-content {
