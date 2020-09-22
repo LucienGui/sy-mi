@@ -113,10 +113,11 @@ a{
     padding: 3px;
 }
 .top1 img {
-    width: 20px;
+    width: 30px;
+    margin-top: 5px;
 }
 .top-content1 {
-    font-size: 13px;
+    font-size: 1rem;
     color: #424242;
 }
 /* 购物车底部 */
