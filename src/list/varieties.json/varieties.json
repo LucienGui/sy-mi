@@ -110,7 +110,7 @@
                                 "title-small":"10X 4G" 
                              },
                              {
-                                "url":"../../../src/assets/image/banner-p4.jpg",
+                                "url":"../../../src/assets/image/banner/banner-p4.jpg",
                                 "title":"Redmi红米数字系列"
                              },
                              {
@@ -134,7 +134,7 @@
                                 "title-small":"Redmi 7A" 
                              },
                              {
-                                "url":"../../../src/assets/image/banner-p5.jpg",
+                                "url":"../../../src/assets/image/banner/banner-p5.jpg",
                                 "title":"Redmi红米 Note系列"
                                  
                              },
@@ -148,7 +148,7 @@
                                 "title-small":"Redmi Note 8 " 
                              },
                              {
-                                "url":"../../../src/assets/image/banner-p6.jpg",
+                                "url":"../../../src/assets/image/banner/banner-p6.jpg",
                                 "title":"Redmi手机配件"
                              },
                              {
@@ -164,7 +164,7 @@
                                 "title-small":"Redmi手机贴膜 " 
                              },
                              {
-                                "url":"../../../src/assets/image/banner-p7.jpg"
+                                "url":"../../../src/assets/image/banner/banner-p7.jpg"
                                 
                              },
                             
@@ -217,7 +217,7 @@
                                   
                                     {
                                         "id":4,
-                                        "url":"../../../src/assets/image/banner-p8.jpg",
+                                        "url":"../../../src/assets/image/banner/banner-p8.jpg",
                                         "title":"K30 5G",
                                         "list3":[
 
@@ -260,7 +260,7 @@
 
                                                 {
                                                     "id":5,
-                                                    "url":"../../../src/assets/image/banner-p9.jpg",
+                                                    "url":"../../../src/assets/image/banner/banner-p9.jpg",
                                                     "title":"众筹好物",
                                                     "list4":[
                                                         {
@@ -348,7 +348,7 @@
                                                                     "title-small":"激光投影电视"   
                                                                 },
                                                                 {
-                                                                    "url":"../../../src/assets/image/banner-p10.jpg",
+                                                                    "url":"../../../src/assets/image/banner/banner-p10.jpg",
                                                                     "title":"盒子"
 
                                                                 },
@@ -543,7 +543,7 @@
                                                                                     },
                                                                                     {
                                                                                         "id":10,
-                                                                                        "url":"../../../src/assets/image/banner-smart-01.jpg",
+                                                                                        "url":"../../../src/assets/image/banner/banner-smart.jpg",
                                                                                         "title":"WiFi 6",
                                                                                         "list9":[
                                                                                             {
@@ -610,14 +610,884 @@
                                                                                                 "title":"生活电器",
                                                                                                 "list10":[
                                                                                                     {
-                                                                                                        "url":"../../../src/assets/image/WiFi-spare/tu-p2.png",
-                                                                                                        "title-small": "WiFi放大镜" 
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p1.png",
+                                                                                                        "title-small": "空气净化器" 
 
 
                                                                                                     },
                                                                                                     {
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p2.png",
+                                                                                                        "title-small": "扫地机" 
+
+
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p3.png",
+                                                                                                        "title-small": "吸尘器" 
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p4.png",
+                                                                                                        "title-small": "新风机" 
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p5.png",
+                                                                                                        "title-small": "电风扇" 
+
+
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p6.png",
+                                                                                                        "title-small": "晾衣机" 
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p7.png",
+                                                                                                        "title-small": "宠物饮水机" 
+
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p8.png",
+                                                                                                        "title-small": "宠物喂食器"
+
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "url":"../../../src/assets/image/live-ele/tu-p9.png",
+                                                                                                        "title-small": "除湿机"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id":12,
+                                                                                                        "url":"../../../src/assets/image/banner/banner-smart-01.jpg",
+                                                                                                        "title":"厨房大电",
+                                                                                                        "list11":[
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-big/tu-p1.png",
+                                                                                                                "title-small": "净水器"
+
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-big/tu-p2.png",
+                                                                                                                "title-small": "洗碗机"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-big/tu-p3.png",
+                                                                                                                "title-small": "烟机灶具"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "title":"厨房小电"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p1.png",
+                                                                                                                "title-small": "蒸烤箱"
+
+                                                                                                                
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p2.png",
+                                                                                                                "title-small": "饮水机"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p3.png",
+                                                                                                                "title-small": "微烤一体"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p4.png",
+                                                                                                                "title-small": "电饭煲"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p5.png",
+                                                                                                                "title-small": "电磁炉"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p6.png",
+                                                                                                                "title-small": "电压力锅"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p7.png",
+                                                                                                                "title-small": "电压力锅"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p8.png",
+                                                                                                                "title-small": "多功能涮烤锅"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/kitchen-small/tu-p9.png",
+                                                                                                                "title-small": "三明治机"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "title":"智能穿戴"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/smart-wear/tu-p1.png",
+                                                                                                                "title-small": "智能手表"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/smart-wear/tu-p2.png",
+                                                                                                                "title-small": "智能手环"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/smart-wear/tu-p3.png",
+                                                                                                                "title-small": "儿童手表"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/smart-wear/tu-p4.png",
+                                                                                                                "title-small": "耳机"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/smart-wear/tu-p5.png",
+                                                                                                                "title-small": "头戴影院"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":"../../../src/assets/image/smart-wear/tu-p6.png",
+                                                                                                                "title-small": "石英表"
+
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "id":13,
+                                                                                                                "url":"../../../src/assets/image/banner/banner-smart-02.jpg",
+                                                                                                                "title":"智能家居",
+                                                                                                                "list12":[
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/smart-household/tu-p1.png",
+                                                                                                                        "title-small": "智能门锁"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/smart-household/tu-p2.png",
+                                                                                                                        "title-small": "智能猫眼"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/smart-household/tu-p3.png",
+                                                                                                                        "title-small": "摄像机"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/smart-household/tu-p4.png",
+                                                                                                                        "title-small": "打印机"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/smart-household/tu-p5.png",
+                                                                                                                        "title-small": "智能门铃"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/smart-household/tu-p6.png",
+                                                                                                                        "title-small": "传感器"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                         "title":"照明灯具"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/lighting/tu-p1.png",
+                                                                                                                        "title-small": "台灯"
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/lighting/tu-p2.png",
+                                                                                                                        "title-small": "吸顶灯"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/lighting/tu-p3.png",
+                                                                                                                        "title-small": "床头灯"
+                                                                                                                           
+
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/lighting/tu-p4.png",
+                                                                                                                        "title-small": "夜灯"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/lighting/tu-p5.png",
+                                                                                                                        "title-small": "筒灯"
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "url":"../../../src/assets/image/lighting/tu-p6.png",
+                                                                                                                        "title-small": "开关"
+
+
+                                                                                                                       },
+                                                                                                                       {
+                                                                                                                        "id":14,
+                                                                                                                        "url":"../../../src/assets/image/banner/banner-smart-03.jpg",
+                                                                                                                        "title":"出行",
+                                                                                                                        "list13":[
+                                                                                                                            {
+                                                                                                                                "url":"../../../src/assets/image/travel/tu-p1.png",
+                                                                                                                                "title-small": "助力车"
+
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "url":"../../../src/assets/image/travel/tu-p2.png",
+                                                                                                                                "title-small": "平衡车"
+
+
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "url":"../../../src/assets/image/travel/tu-p3.png",
+                                                                                                                                "title-small": "滑板车"
+
+
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "url":"../../../src/assets/image/travel/tu-p4.png",
+                                                                                                                                "title-small": "卡丁车套件"
+
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "title":"车载"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "url":"../../../src/assets/image/An on-board/tu-p1.png",
+                                                                                                                                "title-small": "智能后视角"
+
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "url":"../../../src/assets/image/An on-board/tu-p2.png",
+                                                                                                                                "title-small": "车充"
+
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "url":"../../../src/assets/image/An on-board/tu-p2.png",
+                                                                                                                                "title-small": "停车牌"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "id":15,
+                                                                                                                                "url":"../../../src/assets/image/banner/banner-smart-04.jpg",
+                                                                                                                                "title":"防护清洁",
+                                                                                                                                "list14":[
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/Protective clean/tu-p1.png",
+                                                                                                                                        "title-small": "电子体温计"
+                                                                                                                                        
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/Protective clean/tu-p2.png",
+                                                                                                                                        "title-small": "洗手机"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/Protective clean/tu-p3.png",
+                                                                                                                                        "title-small": "MIJOY粘毛器"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "title":"个护"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/A guard/tu-p1.png",
+                                                                                                                                        "title-small": "成人电动牙刷"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/A guard/tu-p2.png",
+                                                                                                                                        "title-small": "儿童电动牙刷"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/A guard/tu-p3.png",
+                                                                                                                                        "title-small": "剃须刀"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/A guard/tu-p4.png",
+                                                                                                                                        "title-small": "吹风机"
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/A guard/tu-p5.png",
+                                                                                                                                        "title-small": "洁面机"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/A guard/tu-p6.png",
+                                                                                                                                        "title-small": "香氛机"
+
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "title":"健康"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/health/tu-p1.png",
+                                                                                                                                        "title-small": "体脂秤"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/health/tu-p2.png",
+                                                                                                                                        "title-small": "体重秤"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/health/tu-p3.png",
+                                                                                                                                        "title-small": "走步机"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/health/tu-p4.png",
+                                                                                                                                        "title-small": "健康车"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/health/tu-p5.png",
+                                                                                                                                        "title-small": "按摩器"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "url":"../../../src/assets/image/health/tu-p6.png",
+                                                                                                                                        "title-small": "口罩"
+
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "id":15,
+                                                                                                                                        "url":"../../../src/assets/image/banner/banner-smart-05.jpg",
+                                                                                                                                        "title":"音箱",
+                                                                                                                                        "list14":[
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/speakers/tu-p1.png",
+                                                                                                                                                "title-small": "户外蓝牙音箱"
+
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/speakers/tu-p2.png",
+                                                                                                                                                "title-small": "小爱音箱"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/speakers/tu-p3.png",
+                                                                                                                                                "title-small": "蓝牙音箱"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "title":"耳机"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/headset/tu-p1.png",
+                                                                                                                                                "title-small": "蓝牙耳机"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/headset/tu-p2.png",
+                                                                                                                                                "title-small": "线控耳机"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "title":"手机配件"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/phone-spare/tu-p1.png",
+                                                                                                                                                "title-small": "移动电源"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/phone-spare/tu-p2.png",
+                                                                                                                                                "title-small": "无线充"
+
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/phone-spare/tu-p3.png",
+                                                                                                                                                "title-small": "充电器"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/phone-spare/tu-p4.png",
+                                                                                                                                                "title-small": "自拍杆"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/phone-spare/tu-p5.png",
+                                                                                                                                                "title-small": "保护壳"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/phone-spare/tu-p6.png",
+                                                                                                                                                "title-small": "贴膜"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/banner/banner-smart-06.jpg",
+                                                                                                                                                "title":"电子教育"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/electronic-education/tu-p1.png",
+                                                                                                                                                "title-small": "翻译机"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/electronic-education/tu-p1.png",
+                                                                                                                                                "title-small": "电子书"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/electronic-education/tu-p1.png",
+                                                                                                                                                "title-small": "小爱老师"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "title":"图书"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "url":"../../../src/assets/image/book/tu-p1.png",
+                                                                                                                                                "title-small": "一往无前"
+
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "id":16,
+                                                                                                                                             
+                                                                                                                                                "title":"箱包",
+                                                                                                                                                "list15":[
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/bags/tu-p1.png",
+                                                                                                                                                        "title-small": "旅行箱"
+        
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/bags/tu-p2.png",
+                                                                                                                                                        "title-small": "小背包"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/bags/tu-p3.png",
+                                                                                                                                                        "title-small": "双肩包"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/banner/life.jpg",
+                                                                                                                                                        "title":"儿童用品"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Childrens-products/tu-p1.png",
+                                                                                                                                                        "title-small": "盲盒公仔"
+                                                                                                                                                        
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Childrens-products/tu-p2.png",
+                                                                                                                                                        "title-small": "儿童手表"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Childrens-products/tu-p3.png",
+                                                                                                                                                        "title-small": "早教启智"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Childrens-products/tu-p4.png",
+                                                                                                                                                        "title-small": "点读笔"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Childrens-products/tu-p5.png",
+                                                                                                                                                        "title-small": "智能魔方"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Childrens-products/tu-p5.png",
+                                                                                                                                                        "title-small": "米兔"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/banner/banner-chil.jpg",
+                                                                                                                                                        "title":"床品家具"
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Bedding furniture/tu-p1.png",
+                                                                                                                                                        "title-small": "床垫"
+                                                                                                                                                        
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Bedding furniture/tu-p2.png",
+                                                                                                                                                        "title-small": "枕头"
+                                                                                                                                                        
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Bedding furniture/tu-p3.png",
+                                                                                                                                                        "title-small": "工学椅"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "title":"家居用品"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p1.png",
+                                                                                                                                                        "title-small": "无痕胶带"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p2.png",
+                                                                                                                                                        "title-small": "垃圾袋"
+
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p3.png",
+                                                                                                                                                        "title-small": "水槽滤网"
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p4.png",
+                                                                                                                                                        "title-small": "插线板"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p5.jpg",
+                                                                                                                                                        "title-small": "眼部按摩仪"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p6.png",
+                                                                                                                                                        "title-small": "转换器"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p7.jpg",
+                                                                                                                                                        "title-small": "挖耳勺"
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p8.jpg",
+                                                                                                                                                        "title-small": "电池"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Household items/tu-p9.jpg",
+                                                                                                                                                        "title-small": "鼻毛修理器"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/banner/banner-life-01.jpg",
+                                                                                                                                                        "title":"鞋服配饰"
+                                                                                                                                                      
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Shoes clothes accessories/tu-p1.jpg",
+                                                                                                                                                        "title-small": "定制T恤"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Shoes clothes accessories/tu-p2.jpg",
+                                                                                                                                                        "title-small": "运动心电T恤"
+                                                                                                                                                        
+
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Shoes clothes accessories/tu-p3.jpg",
+                                                                                                                                                        "title-small": "眼镜"
+
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Shoes clothes accessories/tu-p4.jpg",
+                                                                                                                                                        "title-small": "饰品"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        
+                                                                                                                                                        "url":"../../../src/assets/image/Shoes clothes accessories/tu-p5.jpg",
+                                                                                                                                                        "title-small": "运动鞋"
+
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "url":"../../../src/assets/image/Shoes clothes accessories/tu-p6.jpg",
+                                                                                                                                                        "title-small": "纪念T恤"
+
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "id":17,
+                                                                                                                                             
+                                                                                                                                                        "title":"优品精选",
+                                                                                                                                                        "list16":[
+                                                                                                                                                            {
+                                                                                                                                                                "url":"../../../src/assets/image/Have a product selection/tu-p1.jpg",
+                                                                                                                                                                "title-small": "颈部按摩器"
+
+
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "url":"../../../src/assets/image/Have a product selection/tu-p2.jpg",
+                                                                                                                                                                "title-small": "按摩筋膜枪"
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "url":"../../../src/assets/image/Have a product selection/tu-p3.jpg",
+                                                                                                                                                                "title-small": "保温泡茶杯"
+
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "url":"../../../src/assets/image/Have a product selection/tu-p4.jpg",
+                                                                                                                                                                "title-small": "黑体仪"
+
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "title":"热门推荐"
+
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "url":"../../../src/assets/image/Hot recommended/tu-p1.jpg",
+                                                                                                                                                                "title-small": "免费安装服务"
+
+
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "id":18,
+                                                                                                                                             
+                                                                                                                                                                "title":"手机服务",
+                                                                                                                                                                "list17":[
+                                                                                                                                                                    {
+                                                                                                                                                                        "url":"../../../src/assets/image/Mobile phone service/tu-p1.jpg",
+                                                                                                                                                                        "title-small": "手机保障服务"
+
+                                                                                                                                                                    },
+                                                                                                                                                                    {
+                                                                                                                                                                        "url":"../../../src/assets/image/Mobile phone service/tu-p2.jpg",
+                                                                                                                                                                        "title-small": "手机上门维修"
+
+                                                                                                                                                                    },
+                                                                                                                                                                    {
+                                                                                                                                                                        "title":"家电服务"
+
+                                                                                                                                                                    },
+                                                                                                                                                                    {
+                                                                                                                                                                        "url":"../../../src/assets/image/Mobile phone service/tu-p1.jpg",
+                                                                                                                                                                        "title-small": "手机上门维修"
+
+                                                                                                                                                                    },
+                                                                                                                                                                    {
+                                                                                                                                                                        "url":"../../../src/assets/image/Mobile phone service/tu-p2.jpg",
+                                                                                                                                                                        "title-small": "电视安装"
+                                                                                                                                                                    },
+                                                                                                                                                                    {
+                                                                                                                                                                        "id":19,
+                                                                                                                                             
+                                                                                                                                                                       "title":"爆品推荐",
+                                                                                                                                                                        "list18":[
+                                                                                                                                                                            {
+                                                                                                                                                                                "url":"../../../src/assets/image/Detonation product recommendation/tu-p1.jpg",
+                                                                                                                                                                                "title-small": "1元体验包"
+                                                                                                                                                                               
+
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "url":"../../../src/assets/image/Detonation product recommendation/tu-p2.jpg",
+                                                                                                                                                                                "title-small": "5G折扣套餐"
+
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "url":"../../../src/assets/image/Detonation product recommendation/tu-p3.jpg",
+                                                                                                                                                                                "title-small": "大流量卡"
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "title":"电话卡"
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "url":"../../../src/assets/image/Phone CARDS/tu-p1.jpg",
+                                                                                                                                                                                "title-small": "联通米粉王卡"
+
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "url":"../../../src/assets/image/Phone CARDS/tu-p2.jpg",
+                                                                                                                                                                                "title-small": "电信米粉星卡"
+
+                                                                                                                                                                            },
+
+                                                                                                                                                                            {
+                                                                                                                                                                                "url":"../../../src/assets/image/Phone CARDS/tu-p3.jpg",
+                                                                                                                                                                                "title-small": "移动花卡"
+
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "title":"流量包"
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "url":"../../../src/assets/image/traffic/tu-p1.jpg",
+                                                                                                                                                                                "title-small": "联通5G升级包"
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "url":"../../../src/assets/image/traffic/tu-p2.jpg",
+                                                                                                                                                                                "title-small": "联通5G特惠包"
+
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "id":20,
+                                                                                                                                             
+                                                                                                                                                                               "title":"小米联名卡",
+                                                                                                                                                                                "list19":[
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "url":"../../../src/assets/image/Traffic package/tu-p1.jpg",
+                                                                                                                                                                                        "title-small": "小米中信卡"
+        
+
+
+                                                                                                                                                                                    },
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "url":"../../../src/assets/image/Traffic package/tu-p2.jpg",
+                                                                                                                                                                                        "title-small": "小米光大卡"
+
+                                                                                                                                                                                    },
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "url":"../../../src/assets/image/Traffic package/tu-p3.jpg",
+                                                                                                                                                                                        "title-small": "小米招行卡"
+
+                                                                                                                                                                                    },
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "id":21,
+                                                                                                                                             
+                                                                                                                                                                                        "title":"零售店",
+                                                                                                                                                                                         "list20":[
+                                                                                                                                                                                             {
+                                                                                                                                                                                                "url":"../../../src/assets/image/Retail stores/tu-p1.jpg",
+                                                                                                                                                                                                "title-small": "小米之家"
+
+
+                                                                                                                                                                                             },
+                                                                                                                                                                                             {
+                                                                                                                                                                                                "url":"../../../src/assets/image/Retail stores/tu-p2.jpg",
+                                                                                                                                                                                                "title-small": "服务网点"
+
+                                                                                                                                                                                             },
+                                                                                                                                                                                             {
+                                                                                                                                                                                                "url":"../../../src/assets/image/Retail stores/tu-p3.jpg",
+                                                                                                                                                                                                "title-small": "线下专区"
+
+                                                                                                                                                                                             },
+                                                                                                                                                                                             {
+                                                                                                                                                                                                "id":22,
+                                                                                                                                             
+                                                                                                                                                                                                "title":"其它",
+                                                                                                                                                                                                 "list21":[
+                                                                                                                                                                                                     {
+                                                                                                                                                                                                        "url":"../../../src/assets/image/other/tu-p1.jpg",
+                                                                                                                                                                                                        "title-small": "以旧换新"
+                                                                                                                                                                                                        
+                                                                                                                                                                                                     },
+                                                                                                                                                                                                     {
+                                                                                                                                                                                                        "url":"../../../src/assets/image/other/tu-p2.jpg",
+                                                                                                                                                                                                        "title-small": "引荐有礼"
+
+                                                                                                                                                                                                     },
+                                                                                                                                                                                                     {
+                                                                                                                                                                                                        "url":"../../../src/assets/image/other/tu-p3.jpg",
+                                                                                                                                                                                                        "title-small": "企业团购"
+
+                                                                                                                                                                                                     },
+                                                                                                                                                                                                     {
+                                                                                                                                                                                                        "url":"../../../src/assets/image/other/tu-p4.jpg",
+                                                                                                                                                                                                        "title-small": "云服务空间年卡"
+
+                                                                                                                                                                                                     },
+                                                                                                                                                                                                     {
+                                                                                                                                                                                                        "url":"../../../src/assets/image/other/tu-p5.jpg",
+                                                                                                                                                                                                        "title-small": "小米互助"
+
+                                                                                                                                                                                                     },
+                                                                                                                                                                                                     {
+                                                                                                                                                                                                        "url":"../../../src/assets/image/other/tu-p6.jpg",
+                                                                                                                                                                                                        "title-small": "云服务空间月卡"
+
+
+                                                                                                                                                                                                     }
+                                                                                                                                                                                                 ]
+                                                                                                                                                                                             }
+
+
+                                                                                                                                                                                             
+                                                                                                                                                                                         ]
+                                                                                                                                                                                        
+
+
+                                                                                                                                                                                    }
+                                                                                                                                                                                ]
+
+                                                                                                                                                                            }
+                                                                                                                                                                        
+
+
+                                                                                                                                                                                                                                                                                                                                               ]
+                                                                                                                                                                    }
+
+
+                                                                                                                                                                ]
+                                                                                                                                                            }
+
+
+
+
+                                                                                                                                                        ]
+
+                                                                                                                                                    }
+
+
+                                                                                                                                                ]
+
+                                                                                                                                            }
+                                                                                                                                           
+
+                                                                                                                                            
+
+
+                                                                                                                                        ]
+
+                                                                                                                                    }
+
+                                                                                                                                ]
+
+                                                                                                                            }
+                                                                                                                        ]
+
+                                                                                                                       }                
+
+
+
+
+
+
+
+
+                                                                                                                ]
+
+
+
+                                                                                                            }
+
+                                                                                                        ]
 
                                                                                                     }
+
                                                                                                 ]
                                                                                                
 
