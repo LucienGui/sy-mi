@@ -23,4 +23,8 @@ html,body,#app,.box{
   height: 100%;
   overflow: hidden;
 }
+
+.swiper-pagination-bullet{
+  margin: 0 5px;
+}
 </style>

@@ -1,10 +1,10 @@
 <template>
  <div class="">
- 
+ 电视
  </div>
 </template>
  
-<script>
+<script scoped>
 export default {
  
 }

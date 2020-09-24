@@ -72,7 +72,7 @@ export default {
 };
 </script>
  
-<style>
+<style scoped>
 .box {
   display: flex;
   flex-direction: column;
@@ -81,12 +81,13 @@ export default {
 
 a {
   text-decoration: none;
+  color: #747474;
 }
 
 /* 分类顶部 */
 .box-top {
-  /* padding: 12px; */
-  /* flex-shrink: 0; */
+  padding: 12px;
+  flex-shrink: 0;
   background-color: rgb(242, 242, 242);
   display: flex;
   flex-direction: row;

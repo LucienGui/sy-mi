@@ -28,7 +28,7 @@
   </div>
 </template>
  
-<script>
+<script scoped>
 export default {
   methods: {
     // 页面切换
@@ -51,7 +51,7 @@ export default {
 };
 </script>
  
-<style>
+<style scoped>
 .box {
     display: flex;
     flex-direction: column;
@@ -60,6 +60,7 @@ export default {
 
 a{
     text-decoration: none;
+    color: #747474;
 }
 
 /* 登录界面底部 */

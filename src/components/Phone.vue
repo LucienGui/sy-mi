@@ -1,10 +1,10 @@
 <template>
  <div class="">
- 
+ 手机
  </div>
 </template>
  
-<script>
+<script scoped>
 export default {
  
 }

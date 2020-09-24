@@ -1,10 +1,10 @@
 <template>
- <div class="">
- 
+ <div class="bigbox">
+     详情页
  </div>
 </template>
  
-<script>
+<script scoped>
 export default {
  
 }

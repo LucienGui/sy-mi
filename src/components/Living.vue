@@ -1,10 +1,10 @@
 <template>
  <div class="">
- 
+ 生活周边
  </div>
 </template>
  
-<script>
+<script scoped>
 export default {
  
 }

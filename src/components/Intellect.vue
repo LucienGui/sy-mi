@@ -1,10 +1,10 @@
 <template>
  <div class="">
- 
+ 智能
  </div>
 </template>
  
-<script>
+<script scoped>
 export default {
  
 }

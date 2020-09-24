@@ -1,10 +1,10 @@
 <template>
  <div class="">
- 
+ 家电
  </div>
 </template>
  
-<script>
+<script scoped>
 export default {
  
 }

@@ -80,6 +80,7 @@ export default {
 
 a{
     text-decoration: none;
+    color: #747474;
 }
 
 /* 购物车顶部 */
