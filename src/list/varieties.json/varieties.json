@@ -1,0 +1,886 @@
+{
+    "code":200, 
+    "status":"成功",
+    "tabslabel":[
+        {
+                 "id":1,
+                 "url":"../../../src/assets/image/banner/big-1.jpg",
+                 "title":"小米数字系列",
+                 "list":[
+                     {
+                         "url":"../../../src/assets/image/minumber/tu-p1.jpg",
+                         "title-small":"小米10至尊版"
+
+
+                     } , 
+
+                     { 
+                        "url":"../../../src/assets/image/minumber/tu-p2.png",
+                        "title-small":"小米10青春版"
+
+                     },
+                     {
+                        "url":"../../../src/assets/image/minumber/tu-p3.png",
+                        "title-small":"小米10Pro"
+                     },
+                     {
+                        "url":"../../../src/assets/image/minumber/tu-p4.png",
+                        "title-small":"小米10"
+                     },
+                     { 
+                        "url":"../../../src/assets/image/banner/banner-p.jpg",
+                        "title":"小米MIX系列"
+                       
+                     },
+                     {
+                        "url":"../../../src/assets/image/mi-Mix/tu.png",
+                        "title-small":"小米10"
+                     },
+                     {
+                        "url":"../../../src/assets/image/banner/banner-p1.jpg",
+                        "title":"小米手机备件"
+
+                     },
+                     {
+                        "url":"../../../src/assets/image/phone-spare/tu-p2.png",
+                        "title-small":"无线充"
+                     },
+                     {
+                        "url":"../../../src/assets/image/phone-spare/tu-p3.png",
+                        "title-small":"充电器"
+                     },
+                     {
+                        "url":"../../../src/assets/image/phone-spare/tu-p4.png",
+                        "title-small":"自拍杆"
+                     },
+                     {
+                        "url":"../../../src/assets/image/phone-spare/tu-p5.png",
+                        "title-small":"小米手机保护壳"
+                     },
+                     {
+                        "url":"../../../src/assets/image/banner/banner-p2.jpg"
+                       
+                     },
+                     {
+
+                        "id":2,
+                        "url":"../../../src/assets/image/banner/big.jpg",
+                        "title":"Redmi红米K系列",
+                        "list1":[
+
+                            {
+                                "url":"../../../src/assets/image/Redmi-k/tu-p1.png",
+                                "title-small":"k30至尊版"
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-k/tu-p2.png",
+                                "title-small":"k30 Pro"
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-k/tu-p3.png",
+                                "title-small":"k30 Pro变焦版"
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-k/tu-p4.png",
+                                "title-small":"Redimi k30i"
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-k/tu-p5.png",
+                                "title-small":"Redimi k30 4G"
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-k/tu-p6.png",
+                                "title-small":"Redimi k30 5G"
+                             },
+                             {
+                                "url":"../../../src/assets/image/banner/banner-p3.jpg",
+                                "title":"Redmi红米 X系列"
+        
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-x/tu-p1.png",
+                                "title-small":"10X 5G" 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-x/tu-p2.png",
+                                "title-small":"10X Pro 5G" 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-x/tu-p3.png",
+                                "title-small":"10X 4G" 
+                             },
+                             {
+                                "url":"../../../src/assets/image/banner-p4.jpg",
+                                "title":"Redmi红米数字系列"
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-red-number/tu-p1.png",
+                                "title-small":"Redmi 9A" 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-red-number/tu-p2.png",
+                                "title-small":"Redmi 9" 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-red-number/tu-p3.png",
+                                "title-small":"Redmi 8" 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-red-number/tu-p4.png",
+                                "title-small":"Redmi 8A" 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-red-number/tu-p5.png",
+                                "title-small":"Redmi 7A" 
+                             },
+                             {
+                                "url":"../../../src/assets/image/banner-p5.jpg",
+                                "title":"Redmi红米 Note系列"
+                                 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-Note/tu-p1.png",
+                                "title-small":"Note 8 Pro" 
+        
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-Note/tu-p2.png",
+                                "title-small":"Redmi Note 8 " 
+                             },
+                             {
+                                "url":"../../../src/assets/image/banner-p6.jpg",
+                                "title":"Redmi手机配件"
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-spare/tu-p1.png",
+                                "title-small":"Redmi 充电宝 " 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-spare/tu-p2.png",
+                                "title-small":"Redmi手机保... " 
+                             },
+                             {
+                                "url":"../../../src/assets/image/Redmi-spare/tu-p3.png",
+                                "title-small":"Redmi手机贴膜 " 
+                             },
+                             {
+                                "url":"../../../src/assets/image/banner-p7.jpg"
+                                
+                             },
+                            
+                             {
+                                "id":3,
+                                "url":"../../../src/assets/image/big-2.jpg",
+                                "title":"黑鲨鱼游戏手机",
+                                "list2":[
+
+                                     {
+                                        "url":"../../../src/assets/image/black-p/tu-p1.png",
+                                        "title-small":"黑鲨鱼手机3S " 
+                                     },
+                                     {
+                                        "url":"../../../src/assets/image/black-p/tu-p2.png",
+                                        "title-small":"黑鲨鱼手机3 " 
+                                     },
+                                     {
+                                        "title":"黑鲨鱼游戏手机配件"
+                                     },
+                                     {
+                                        "url":"../../../src/assets/image/black-spare/tu-p1.png",
+                                        "title-small":"电竞手游肩键 "   
+                                     },
+                                     {
+                                        "url":"../../../src/assets/image/black-spare/tu-p2.png",
+                                        "title-small":"散热背夹Pro "   
+                                     },
+                                     {
+                                        "url":"../../../src/assets/image/black-spare/tu-p3.png",
+                                        "title-small":"黑鲨磁吸充电线 "   
+                                     },
+                                     {
+                                        "url":"../../../src/assets/image/black-spare/tu-p4.png",
+                                        "title-small":"冰封散热背夹"   
+                                     },
+                                     {
+                                        "url":"../../../src/assets/image/black-spare/tu-p5.png",
+                                        "title-small":"黑鲨手柄 "   
+                                     },
+                                     {
+                                        "url":"../../../src/assets/image/black-spare/tu-p6.png",
+                                        "title-small":"黑鲨充电宝 "   
+                                     },
+                                     {
+                                        "url":"../../../src/assets/image/black-spare/tu-p7.png",
+                                        "title-small":"黑鲨其他配件 "   
+                                     },
+
+                                  
+                                    {
+                                        "id":4,
+                                        "url":"../../../src/assets/image/banner-p8.jpg",
+                                        "title":"K30 5G",
+                                        "list3":[
+
+                                               {
+                                                "url":"../../../src/assets/image/K30/tu-p1.png",
+                                                "title-small":"6GB+64GB "   
+
+
+
+                                               },
+                                               {
+
+                                                "url":"../../../src/assets/image/K30/tu-p2.png",
+                                                "title-small":"8GB+128GB"   
+
+                                               },
+                                               {
+                                                    "url":"../../../src/assets/image/K30/tu-p3.png",
+                                                    "title-small":"8GB+256GB"   
+                                               },
+                                               {
+                                                   "title":"小米10"
+                                               },
+                                               {
+                                                    "url":"../../../src/assets/image/mi10/tu-p1.png",
+                                                    "title-small":"8GB+256GB"   
+                                               },
+                                                {
+                                                    "url":"../../../src/assets/image/mi10/tu-p2.png",
+                                                    "title-small":"12GB+256GB"   
+                                                },
+                                                {
+                                                    "title":"小米10Pro"
+
+                                                },
+                                                {
+                                                    "url":"../../../src/assets/image/mi10-Pro/tu-p1.png",
+                                                    "title-small":"12GB+256GB"   
+                                                },
+
+                                                {
+                                                    "id":5,
+                                                    "url":"../../../src/assets/image/banner-p9.jpg",
+                                                    "title":"众筹好物",
+                                                    "list4":[
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p1.png",
+                                                            "title-small":"加湿器"   
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p2.png",
+                                                            "title-small":"浴霸"   
+
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p3.png",
+                                                            "title-small":"保管箱"   
+
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p4.png",
+                                                            "title-small":"投影仪青春版2"   
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p5.png",
+                                                            "title-small":"小黑板20英寸 "   
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p6.png",
+                                                            "title-small":"蒸烤箱"   
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p7.png",
+                                                            "title-small":"吸尘器"  
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p8.png",
+                                                            "title-small":"智能窗帘"  
+                                                         
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p9.png",
+                                                            "title-small":"显示器"  
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p10.png",
+                                                            "title-small":"智能门锁 E"  
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p11.png",
+                                                            "title-small":"洗碗机嵌入式"  
+
+                                                        },
+                                                        {
+                                                            "url":"../../../src/assets/image/crowd/tu-p12.png",
+                                                            "title-small":"电子书"     
+
+                                                        },
+                                                        {
+                                                            "id":6,
+                                                         
+                                                            "title":"电视",
+                                                            "list5":[
+                                                                {
+                                                                    "url":"../../../src/assets/image/TV/tu-p1.png",
+                                                                     "title-small":"32-40英寸"           
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/TV/tu-p2.png",
+                                                                    "title-small":"43英寸"      
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/TV/tu-p3.png",
+                                                                    "title-small":"49-50英寸"      
+
+
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/TV/tu-p4.png",
+                                                                    "title-small":"55-60英寸"   
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/TV/tu-p5.png",
+                                                                    "title-small":"65-98英寸"   
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/TV/tu-p6.png",
+                                                                    "title-small":"激光投影电视"   
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/banner-p10.jpg",
+                                                                    "title":"盒子"
+
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/box/tu-p1.png",
+                                                                    "title-small":"盒子4"   
+                                                                    
+
+ 
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/box/tu-p2.png",
+                                                                    "title-small":"盒子4c"   
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/box/tu-p2.png",
+                                                                    "title-small":"盒子4 SE套装版"   
+                                                                },
+                                                                {
+                                                                    "title":"音箱"
+
+
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/stereo/tu-p1.png",
+                                                                    "title-small": "小米电视音响"  
+
+
+
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/stereo/tu-p2.png",
+                                                                    "title-small": "Redmi条形音箱"  
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/stereo/tu-p3.png",
+                                                                    "title-small": "小米电视音箱..."  
+
+                                                                },
+                                                                {
+                                                                    "title":"电视配件与会员" 
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/TV-VIP/tu-p1.png",
+                                                                    "title-small": "会员卡"  
+
+                                                                },
+                                                                {
+                                                                    "url":"../../../src/assets/image/TV-VIP/tu-p2.png",
+                                                                    "title-small": "遥控器"  
+
+
+                                                                },
+                                                                {
+                                                                    "id":7,
+                                                         
+                                                                    "title":"大家电",
+                                                                    "list6":[
+                                                                        {
+                                                                            "url":"../../../src/assets/image/appliance/tu-p1.png",
+                                                                            "title-small": "冰箱"  
+                                                                        },
+                                                                        {
+                                                                            "url":"../../../src/assets/image/appliance/tu-p2.png",
+                                                                            "title-small": "壁挂空调"  
+
+                                                                        },
+                                                                        {
+                                                                            "url":"../../../src/assets/image/appliance/tu-p3.png",
+                                                                            "title-small": "立式空调"  
+
+                                                                        },
+                                                                        {
+                                                                            "url":"../../../src/assets/image/appliance/tu-p4.png",
+                                                                            "title-small": "滚筒洗衣机"  
+
+                                                                        },
+                                                                        {
+                                                                            "url":"../../../src/assets/image/appliance/tu-p5.png",
+                                                                            "title-small": "波轮洗衣机"  
+
+
+                                                                        },
+                                                                        {
+                                                                         
+                                                                            "title-small": "干衣机" , 
+                                                                            "url":"../../../src/assets/image/appliance/tu-p6.png"
+                                                                             
+                                                                        },
+                                                                        {
+                                                                            "id":8,
+                                                                            "title":"RedmiBook",
+                                                                            "list7":[
+                                                                            {
+                                                                                "url":"../../../src/assets/image/RedmiBook/tu-p1.png",
+                                                                                "title-small": "Redmi G 游戏..."  
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/RedmiBook/tu-p2.png",
+                                                                                "title-small": "RedmiBook Ai..."  
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/RedmiBook/tu-p3.png",
+                                                                                "title-small": "RedmiBook 16"  
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/RedmiBook/tu-p4.png",
+                                                                                "title-small": "RedmiBook 14"  
+
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/RedmiBook/tu-p5.png",
+                                                                                "title-small": "RedmiBook 13"  
+
+                                                                            },
+                                                                            {
+                                                                                "title":"小米笔记本"
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/mi-notebook/tu-p1.png",
+                                                                                "title-small": "Pro 15.6"  
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/mi-notebook/tu-p2.png",
+                                                                                "title-small": "Air 13.3"  
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/mi-notebook/tu-p3.png",
+                                                                                "title-small": "Air 12.5"  
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/mi-notebook/tu-p4.png",
+                                                                                "title-small": "显示器"  
+
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/mi-notebook/tu-p5.png",
+                                                                                "title-small": "游戏本"
+
+                                                                            },
+                                                                            {
+                                                                                "url":"../../../src/assets/image/mi-notebook/tu-p6.png",
+                                                                                "title-small": "15.6"
+
+                                                                            },
+                                                                            {
+                                                                                "id":9,
+                                                                                "title":"小爱触屏音箱",
+                                                                                "list8":[
+                                                                                    {
+                                                                                        "url":"../../../src/assets/image/love-touch-sound/tu-p1.png",
+                                                                                        "title-small": "Redmi 8英寸"
+
+
+                                                                                    },
+                                                                                    {
+                                                                                        "url":"../../../src/assets/image/love-touch-sound/tu-p2.png",
+                                                                                        "title-small": "小米 8英寸"
+
+                                                                                    },
+                                                                                    {
+                                                                                        "url":"../../../src/assets/image/love-touch-sound/tu-p3.png",
+                                                                                        "title-small": "小米 4英寸"
+
+                                                                                    },
+                                                                                    {
+                                                                                        "title":"小爱智能音箱"
+
+                                                                                    },
+                                                                                    {
+                                                                                        "url":"../../../src/assets/image/love-capacity-sound/tu-p1.png",
+                                                                                        "title-small": "小爱音箱 Art"
+
+                                                                                    },
+                                                                                    {
+                                                                                        "url":"../../../src/assets/image/love-capacity-sound/tu-p2.png",
+                                                                                        "title-small": "小爱音箱"
+
+                                                                                    },
+                                                                                    {
+                                                                                        "url":"../../../src/assets/image/love-capacity-sound/tu-p3.png",
+                                                                                        "title-small": "小爱音箱Pro"
+
+                                                                                    },
+                                                                                    {
+                                                                                        "id":10,
+                                                                                        "url":"../../../src/assets/image/banner-smart-01.jpg",
+                                                                                        "title":"WiFi 6",
+                                                                                        "list9":[
+                                                                                            {
+                                                                                                "url":"../../../src/assets/image/WiFi 6/tu-p1.png",
+                                                                                                "title-small": "Redmi AX6"
+
+                                                                                            },
+                                                                                            {
+                                                                                                "url":"../../../src/assets/image/WiFi 6/tu-p2.png",
+                                                                                                "title-small": "Redmi AX5"
+
+
+                                                                                            },
+                                                                                            {
+                                                                                                "url":"../../../src/assets/image/WiFi 6/tu-p3.png",
+                                                                                                "title-small": "AX1800" 
+                                                                                            },
+                                                                                            {
+                                                                                                "title":"千兆版"
+
+                                                                                            },
+                                                                                            {
+                                                                                                
+                                                                                                "url":"../../../src/assets/image/WiFi-thou/tu-p1.png",
+                                                                                                "title-small": "路由器 4 Pro" 
+
+                                                                                            },
+                                                                                            {
+                                                                                                "url":"../../../src/assets/image/WiFi-thou/tu-p2.png",
+                                                                                                "title-small": "路由器AC2350" 
+
+                                                                                            },
+                                                                                            {
+                                                                                                "url":"../../../src/assets/image/WiFi-thou/tu-p3.png",
+                                                                                                "title-small": "(两只..." 
+                                                                                            },
+                                                                                            {
+                                                                                                "title":"百兆版"
+
+                                                                                            },
+                                                                                            {
+                                                                                                "url":"../../../src/assets/image/WiFi-tum/tu-p1.png",
+                                                                                                "title-small": "4C 300M" 
+                                                                                            },
+                                                                                            {
+                                                                                                "url":"../../../src/assets/image/WiFi-tum/tu-p2.png",
+                                                                                                "title-small": "4C 百兆版" 
+
+
+                                                                                            },
+                                                                                            {
+                                                                                                "title":"配件"
+
+                                                                                            },
+                                                                                            {
+                                                                                                "url":"../../../src/assets/image/WiFi-spare/tu-p2.png",
+                                                                                                "title-small": "WiFi放大镜" 
+                                                                                                
+
+                                                                                            },
+                                                                                            { 
+                                                                                                "id":11,
+                                                                                              
+                                                                                                "title":"生活电器",
+                                                                                                "list10":[
+                                                                                                    {
+                                                                                                        "url":"../../../src/assets/image/WiFi-spare/tu-p2.png",
+                                                                                                        "title-small": "WiFi放大镜" 
+
+
+                                                                                                    },
+                                                                                                    {
+
+                                                                                                    }
+                                                                                                ]
+                                                                                               
+
+                                                                                            },
+                                                                                            {
+
+                                                                                            }
+
+
+
+
+                                                                                        ]
+
+
+                                                                                    }
+                                                                                ]
+
+                                                                            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                            ]
+                                                                        }
+                                                                        
+
+                                                                          
+                                                                            
+
+
+                                                                        
+                                                                       
+           
+
+
+
+
+
+
+
+
+
+                                                                    ]
+
+
+                                                                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            ]
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        }
+
+                                                    ]
+
+
+
+
+
+
+
+
+                                                }
+                                            
+
+
+
+
+
+
+
+
+                                        ]
+                                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                ]
+                           
+                                                 
+                                                                            
+                                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             }
+                        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     }
+
+
+
+
+                      
+
+                         
+
+
+
+
+
+
+
+
+
+                      
+                   
+
+
+
+
+
+                 ]
+                
+                
+
+           
+                
+
+        }
+    ]
+}
