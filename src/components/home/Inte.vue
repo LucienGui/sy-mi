@@ -84,7 +84,7 @@ export default {
         this.listEle = this.$refs.contactList;
     },
      created() {
-    let url = `http://127.0.0.1:5500/dist/data/InteList.json`;
+    let url = `http://127.0.0.1:5500/src/data/InteList.json`;
     let that = this;
     axios
       .get(url)

@@ -87,7 +87,7 @@ export default {
     },
     created(){
         let that = this;
-        let url = "http://localhost:5500/dist/data/Evaluate.json";
+        let url = "http://localhost:5500/src/data/Evaluate.json";
         axios.get(url)
             .then(function(respone){
                 console.log(respone);

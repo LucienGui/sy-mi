@@ -290,7 +290,7 @@ export default {
   },
 // axios请求
     created() {
-      let url = `http://127.0.0.1:5500/dist/data/DetailsList${this.$route.query.id}.json`;
+      let url = `http://127.0.0.1:5500/src/data/DetailsList${this.$route.query.id}.json`;
       let that = this;
       console.log("chengg");
       axios

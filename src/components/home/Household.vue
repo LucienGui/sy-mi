@@ -40,7 +40,7 @@ export default {
         this.listEle = this.$refs.contactList;
     },
     created() {
-        let url = `http://127.0.0.1:5500/dist/data/HouseholdList.json`;
+        let url = `http://127.0.0.1:5500/src/data/HouseholdList.json`;
         let that = this;
         axios
         .get(url)
