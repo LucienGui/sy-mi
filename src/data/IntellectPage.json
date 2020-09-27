@@ -141,7 +141,82 @@
         ],
         [
             {
-                
+                "img":"http://localhost:5500/src/assets/intellect/x01.webp",
+                "title":"空气净化器2S",
+                "des":"好空气看得见",
+                "price":"￥749",
+                "i":"￥899"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/x02.webp",
+                "title":"小米净水器1A",
+                "des":"小身材节省空间",
+                "price":"￥1099",
+                "i":"￥1499"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/x03.webp",
+                "title":"扫地机器人",
+                "des":"智商高，扫的干净",
+                "price":"￥1399",
+                "i":"￥1699"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/x04.webp",
+                "title":"米家IH电饭煲",
+                "des":"多才多艺的智能",
+                "price":"￥399"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/x05.jpg",
+                "title":"米家微波炉",
+                "des":"APP操控，精确",
+                "price":"￥399"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/x06.jpg",
+                "title":"恒温电水壶",
+                "des":"一杯水的温度温度",
+                "price":"￥199"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/x07.webp",
+                "title":"米家电磁炉",
+                "des":"双频火力，精确",
+                "price":"￥299"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/x08.jpg",
+                "title":"米家电饭煲4L",
+                "des":"890W 立体加热",
+                "price":"￥299"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/x09.webp",
+                "title":"米家电烤箱",
+                "des":"全能烘焙体验",
+                "price":"￥299"
+            }
+        ],
+        [
+            {
+                "img":"http://localhost:5500/src/assets/intellect/30.jpg",
+                "title":"Redmi手环",
+                "des":"大屏彩显，助力你每天",
+                "price":"￥99.9"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/31.jpg",
+                "title":"小米手表Color",
+                "des":"1540种出彩搭配，潮流",
+                "price":"￥799起"
+            },
+            {
+                "img":"http://localhost:5500/src/assets/intellect/12.png",
+                "title":"小米手环4",
+                "des":"大屏彩显，202020",
+                "price":"￥149起",
+                "i":"￥169"
             }
         ]
     ]

@@ -36,47 +36,106 @@
     <!-- 商品列表 -->
     <div class="inte-box-black"></div>
     <div class="inte-content">
-      <div class="inte-content-wrap" v-for="item in content[0]" :key="item.index">
-        <img :src="item.img" class="inte-content-img">
+      <div
+        class="inte-content-wrap"
+        v-for="item in content[0]"
+        :key="item.index"
+      >
+        <img :src="item.img" class="inte-content-img" />
       </div>
     </div>
 
     <div class="inte-box-black"></div>
-    <img src="../assets/intellect/21.jpg" class="inte-box-img">
+    <img src="../assets/intellect/21.jpg" class="inte-box-img" />
 
     <!-- 商品列表 -->
     <div class="inte-wrap">
-        <div class="inte-item" v-for="item in content[1]" :key="item.index">
-          <img :src="item.img" class="inte-wrap-img">
-          <p class="inte-wrap-title">{{item.title}}</p>
-          <p class="inte-wrap-des">{{item.des}}</p>
-          <p class="inte-wrap-price">{{item.price}}
-            <span class="inte-wrap-i">{{item.i}}</span>
-          </p>
-        </div>
+      <div class="inte-item" v-for="item in content[1]" :key="item.index">
+        <img :src="item.img" class="inte-wrap-img" />
+        <p class="inte-wrap-title">{{ item.title }}</p>
+        <p class="inte-wrap-des">{{ item.des }}</p>
+        <p class="inte-wrap-price">
+          {{ item.price }}
+          <span class="inte-wrap-i">{{ item.i }}</span>
+        </p>
+      </div>
     </div>
-    <img src="../assets/intellect/22.jpg" class="inte-box-img">
-    <img src="../assets/intellect/23.jpg" class="inte-box-img">
-    <img src="../assets/intellect/24.jpg" class="inte-box-img">
-    <img src="../assets/intellect/25.jpg" class="inte-box-img">
+    <img src="../assets/intellect/22.jpg" class="inte-box-img" />
+    <img src="../assets/intellect/23.jpg" class="inte-box-img" />
+    <img src="../assets/intellect/24.jpg" class="inte-box-img" />
+    <img src="../assets/intellect/25.jpg" class="inte-box-img" />
 
     <!-- 商品列表 -->
     <div class="inte-wrap">
       <div class="inte-item" v-for="item in content[2]" :key="item.index">
-        <img :src="item.img" class="inte-wrap-img">
-        <p class="inte-wrap-title">{{item.title}}</p>
-        <p class="inte-wrap-des">{{item.des}}</p>
-        <p class="inte-wrap-price">{{item.price}}
-          <span class="inte-wrap-i">{{item.i}}</span>
+        <img :src="item.img" class="inte-wrap-img" />
+        <p class="inte-wrap-title">{{ item.title }}</p>
+        <p class="inte-wrap-des">{{ item.des }}</p>
+        <p class="inte-wrap-price">
+          {{ item.price }}
+          <span class="inte-wrap-i">{{ item.i }}</span>
         </p>
       </div>
     </div>
-    <img src="../assets/intellect/22.jpg" class="inte-box-img">
+    <img src="../assets/intellect/22.jpg" class="inte-box-img" />
 
     <!-- 家电 -->
-    <img src="../asstes/inte/26.jpg" class="inte-box-img">
-    div.
+    <img src="../assets/intellect/26.jpg" class="inte-box-img" />
+    <div class="inte-house-wrap">
+      <div class="inte-house-item" v-for="item in content[3]" :key="item.item">
+        <img :src="item.img" class="inte-wrap-img" />
+        <p class="inte-wrap-title">{{ item.title }}</p>
+        <p class="inte-wrap-des">{{ item.des }}</p>
+        <p class="inte-wrap-price">
+          {{ item.price }}
+          <span class="inte-wrap-i">{{ item.i }}</span>
+        </p>
+      </div>
+    </div>
 
+    <!-- 智能穿戴 -->
+    <img src="../assets/intellect/k.jpg" class="inte-box-img" />
+    <div class="inte-house-wrap">
+      <div class="inte-house-item" v-for="item in content[4]" :key="item.item">
+        <img :src="item.img" class="inte-wrap-img" />
+        <p class="inte-wrap-title">{{ item.title }}</p>
+        <p class="inte-wrap-des">{{ item.des }}</p>
+        <p class="inte-wrap-price">
+          {{ item.price }}
+          <span class="inte-wrap-i">{{ item.i }}</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- 耳机音响 -->
+    <img src="../assets/intellect/l.jpg" class="inte-box-img" />
+    <div class="inte-house-wrap">
+      <div class="inte-house-item" v-for="item in content[3]" :key="item.item">
+        <img :src="item.img" class="inte-wrap-img" />
+        <p class="inte-wrap-title">{{ item.title }}</p>
+        <p class="inte-wrap-des">{{ item.des }}</p>
+        <p class="inte-wrap-price">
+          {{ item.price }}
+          <span class="inte-wrap-i">{{ item.i }}</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- 品质灯具 -->
+    <img src="../assets/intellect/m.jpg" class="inte-box-img" />
+    <div class="inte-house-wrap">
+      <div class="inte-house-item" v-for="item in content[3]" :key="item.item">
+        <img :src="item.img" class="inte-wrap-img" />
+        <p class="inte-wrap-title">{{ item.title }}</p>
+        <p class="inte-wrap-des">{{ item.des }}</p>
+        <p class="inte-wrap-price">
+          {{ item.price }}
+          <span class="inte-wrap-i">{{ item.i }}</span>
+        </p>
+      </div>
+    </div>
+
+    <img src="../assets/intellect/l.jpg" class="inte-box-img" />
   </div>
 </template>
  
@@ -91,11 +150,11 @@ export default {
       swiperOptions: {
         pagination: {
           el: ".swiper-pagination",
-          clickable: true, 
+          clickable: true,
         },
         autoplay: {
           delay: 3000,
-          disableOnInteraction: false, 
+          disableOnInteraction: false,
         },
         loop: true,
       },
@@ -156,87 +215,100 @@ export default {
   position: relative;
 }
 
-.swiper-pagination{
+.swiper-pagination {
   position: absolute;
   bottom: 20px;
   left: 37%;
   --swiper-theme-color: #ffffff;
 }
 
+/* 商品列表 */
+.inte-box-black {
+  width: 100%;
+  height: 10px;
+  background: #fafafa;
+}
+
+.inte-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.inte-content-wrap {
+  width: 20%;
+}
+
+.inte-content-img {
+  width: 100%;
+}
+
+.inte-box-img {
+  width: 100%;
+}
 
 /* 商品列表 */
-.inte-box-black{
-    width: 100%;
-    height: 10px;
-    background: #FAFAFA;
+.inte-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 3px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.inte-item {
+  width: 33%;
+  padding: 3px;
+}
+.inte-wrap-img {
+  width: 100%;
+  border-radius: 3px;
+}
+.inte-wrap-title {
+  font-size: 12px;
+  color: #3c3c3c;
+  font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.inte-wrap-des {
+  font-size: 12px;
+  color: #3c3c3c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 3px;
+}
+.inte-wrap-price {
+  font-size: 12px;
+  color: rgb(245, 75, 75);
+  padding: 0 3px;
+}
+.inte-wrap-i {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: line-through;
 }
 
-.inte-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+/* 家电 */
+.inte-house-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 3px;
+  margin-top: -5px;
+  background-color: rgb(240, 241, 243);
 }
-
-.inte-content-wrap{
-    width: 20%;
+.inte-house-item {
+  width: 32%;
+  margin-bottom: 5px;
+  background: #fff;
 }
-
-.inte-content-img{
-    width: 100%;
-}
-
-.inte-box-img{
-    width: 100%;
-}
-
-
-/* 商品列表 */
-.inte-wrap{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 3px;
-    border-bottom: 1px solid #E3E3E3;
-}
-.inte-item{
-    width: 33%;
-    padding: 3px;
-}
-.inte-wrap-img{
-    width: 100%;
-    border-radius: 3px;
-}
-.inte-wrap-title{
-    font-size: 12px;
-    color: #3C3C3C;
-    font-weight: bolder;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.inte-wrap-des{
-    font-size: 12px;
-    color: #3C3C3C;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 0 3px;
-}
-.inte-wrap-price{
-    font-size: 12px;
-    color: rgb(245, 75, 75);
-    padding: 0 3px;
-}
-.inte-wrap-i{
-    font-size: 12px;
-    color: rgba(0,0,0,.54);
-    text-decoration: line-through;
-}
-
-
 
 /* 红包图片 */
 
