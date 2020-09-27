@@ -1,58 +1,61 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 
-import home from "../views/Home.vue";
-import cart from "../views/Cart.vue";
-import classify from "../views/Classify.vue";
-import login from "../views/Login.vue";
+import home from '../views/Home.vue';
+import classify from '../views/Classify.vue';
+import cart from '../views/Cart.vue';
+import my from '../views/My.vue';
 
-import comments from "../views/Comments.vue";
-import search from "../views/Search.vue";
+
+import search from '../views/Search.vue';
+import login from '../views/Login.vue';
 
 import details from "../views/Details.vue";
-import user from "../views/User.vue";
+import evaluate from "../views/Evaluate.vue";
+
 
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path:"/",
-    component:home
+    path: '/',
+    component: home
   },
   {
-    path:"/cart",
-    component:cart
+    path:"/evaluate",
+    component:evaluate
   },
   {
-    path:"/classify",
-    component:classify
+    path: '/classify',
+    component: classify
   },
   {
-    path:"/login",
-    component:login
+    path: '/cart',
+    component: cart
   },
   {
-    path:"/comments",
-    component:comments
+    path: '/my',
+    component: my
   },
+
   {
-    path:"/search",
-    component:search
+    path: '/search',
+    component: search
   },
   {
     path:"/details",
     component:details
   },
   {
-    path:"/user",
-    component:user
-  }
+    path: '/login',
+    component: login
+  },
 
 ]
 
 const router = new VueRouter({
-  routes:routes
+  routes
 })
 
 export default router
