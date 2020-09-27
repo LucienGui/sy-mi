@@ -10,6 +10,42 @@
         <img src="../assets/home/搜索.png" />
       </div>
     </div>
+    <div class="wrap-box">
+      <div class="left-middle absolute scroll-box" ref="left">
+        <ul>
+          <li
+            class="item"
+            v-for="(target, index) in dataItem"
+            :key="index"
+            :class="{ active: index == active }"
+            @click="junpToTarget(index)"
+          >
+            {{ target.title }}
+          </li>
+        </ul>
+      </div>
+      <div class="right-box absolute scroll-box" ref="rightView">
+        <ul>
+          <li class="right-box absolute scroll-box" ref="rightView">
+            <p class="title">
+              <span>{{ target.title }}</span>
+            </p>
+            <div class="shop-item-wrap clear">
+              <div
+                class="shop-item"
+                v-for="(shop, index) in target.children"
+                :key="index"
+                @click="$router.openPage(shop.link)"
+              >
+                <p><img :src="shop.src" alt="" /></p>
+                <p class="title">{{ shop.title }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <!-- 分类页底部 -->
     <div class="box-bottom">
       <div class="bottom-btn" @click="homeBtn">
@@ -39,8 +75,195 @@
 </template>
  
 <script>
+import VueDB from "../vue-methods/vue-window.js";
+import _ from "lodash";
+let DB = new VueDB();
+
 export default {
+  title: "classification",
+  data(){
+    return{
+      active:0,
+      dataItem:[
+         {
+            name: '新品',
+            children: [
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },{
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              }
+            ]
+          },
+           {
+            name: '手机',
+            children: [
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              }
+            ]
+          },
+           {
+            name: '电视',
+            children: [
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              }
+            ]
+          },
+              {
+            name: '电脑',
+            children: [
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              },
+              {
+                name: '小米5s',
+                src: 'http://qiniu.verydog.cn//show.liluo.cc/img_0505.png',
+                link: '/detail/1019'
+              }
+            ]
+          },
+          
+         
+        
+      ]
+
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   methods: {
+    jumpToTarget(index) {
+      var scrollTop = this.offset[index];
+      this.$refs.rightView.scrollTop = scrollTop;
+      setTimeout(() => {
+        this.active = index;
+      }, 10);
+    },
+
     // 搜索按钮
     searchBtn() {
       this.$router.push({
@@ -69,10 +292,49 @@ export default {
       });
     },
   },
+  mounted() {
+    var scrollDB = {
+      left: DB.getItemOnce("classification-left-scrollTop").toNumber(),
+      right: DB.getItemOnce("classification-right-scrollTop").toNumber(),
+    };
+    setTimeout(() => {
+      _.forEach(
+        this.$refs.rightView.querySelectorAll(".item"),
+        (value, key) => {
+          this.offset.push(value.offsetHeight * key);
+        }
+      );
+
+      var mySort = this.offset;
+
+      this.$refs.rightView.addEventListener("scroll", () => {
+        var eScrollTop = this.$refs.rightView.scrollTop;
+
+        for (var indexer = 0; indexer < mySort.length; indexer++) {
+          if (eScrollTop > mySort[indexer]) {
+            this.active = indexer;
+          }
+        }
+      });
+
+      setTimeout(() => {
+        this.$refs.left.scrollTop = scrollDB.left;
+        this.$refs.rightView.scrollTop = scrollDB.right;
+      }, 10);
+    }, 100);
+  },
+  beforeRouteLeave(to, from, next) {
+    DB.setItem("classification-left-scrollTop", this.$refs.left.scrollTop);
+    DB.setItem(
+      "classification-right-scrollTop",
+      this.$refs.rightView.scrollTop
+    );
+    next();
+  },
 };
 </script>
  
-<style scoped>
+<style scoped type="text/sass" lang="sass">
 .box {
   display: flex;
   flex-direction: column;
@@ -140,13 +402,13 @@ a {
   box-shadow: 0px -5px 10px rgb(221, 221, 221);
 }
 
-.second-title1{
+.second-title1 {
   color: #ff6700;
 }
 
 .first-title1,
 .third-title1,
-.forth-title1{
+.forth-title1 {
   color: #747474;
 }
 
@@ -171,4 +433,73 @@ a {
   flex-grow: 1;
   overflow: auto;
 }
+@import "../sass/util.sass";
+.classification
+  background-color: #fff
+
+  .wrap-box
+    position: absolute
+    width: 100%
+    top: getIphonese(100px)
+    left: 0px
+    bottom: $footerHeight
+
+    .left-menu
+      width: getIphonese(133px)
+      left: 0px
+      top: 0px
+      bottom: 0px
+      border-right: 1px solid #efefef
+      overflow-x: hidden
+      @include box-sizing
+
+      ul
+        padding-bottom: 0.44rem
+      li.item
+        margin-top: getIphonese(56px)
+        text-align: center
+        -webkit-transition: all .1s ease
+        transition: all .1s ease
+      li.item.active
+        color: #fb7d34
+        transform: scale(1.2)
+    .right-box
+      left: getIphonese(133px)
+      top: 0px
+      right: 0px
+      bottom: 0px
+      .item
+        padding-top: 0.8rem
+      .title
+        text-align: center
+        padding-bottom: 0.2rem
+        span
+          position: relative
+          display: inline-block
+
+          &:after,&:before
+            display: inline-block
+            width: getIphonese(34px)
+            height: 1px
+            top: 50%
+            background-color: #e0e0e0
+            position: absolute
+            content: ''
+          &:after
+            left: getIphonese(-50px)
+          &:before
+            right: getIphonese(-50px)
+      .shop-item-wrap
+        .shop-item
+          text-align: center
+          float: left
+          width: 33.3%
+          color: #757575
+          margin-bottom: 0.1rem
+          @include f12px
+          img
+            width: getIphonese(80px)
+            padding-bottom: 0.1rem
+
+
 </style>
