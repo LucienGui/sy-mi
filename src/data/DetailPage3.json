@@ -1,0 +1,124 @@
+{
+    "code": 200,
+    "status": "成功",
+    "list": [
+        [{
+            "img": "http://localhost:5500/src/assets/img/详情/lunbo1.jpg"
+        }],
+        [{
+            "price": "2499"
+        }],
+        [{
+            "title": "小米电视"
+        }],
+        [{
+            "one": "http://localhost:5500/src/assets/details/数字1.png",
+            "two": "http://localhost:5500/src/assets/details/数字2.png",
+            "three": "http://localhost:5500/src/assets/details/数字3.png",
+            "title1": "4K HDR超高清画质",
+            "title2": "四核64位高性能处理器",
+            "title3": "杜比+2BDTS双解码+震撼音效",
+            "title4": "爆款电视限时599元起 下单抽手机，戳>",
+            "title5": "小米电视4A 65英寸 黑色x1",
+            "img": "http://localhost:5500/src/assets/recommend/22.jpg",
+            "img2": "http://localhost:5500/src/assets/recommend/21.5.jpg",
+            "img3": "http://localhost:5500/src/assets/recommend/21.jpg",
+            "title6": "小米10 pro",
+            "title7": "1号",
+            "title8": "2号",
+            "price1": "4999",
+            "title": "小米电视",
+            "price2": "111",
+            "price3": "222"
+        }],
+        [{
+                "img": "http://localhost:5500/src/assets/recommend/22.jpg",
+                "text": "小米电视",
+                "tou": "http://localhost:5500/src/assets/details/xiang001.jpg",
+                "name": "米小米",
+                "price": "1"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/recommend/22.jpg",
+                "text": "小米电视",
+                "tou": "http://localhost:5500/src/assets/details/xiang002.jpg",
+                "name": "大虾",
+                "price": "2"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/recommend/22.jpg",
+                "text": "小米电视",
+                "tou": "http://localhost:5500/src/assets/details/xiang003.jpg",
+                "name": "侠路红尘",
+                "price": "3"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/recommend/22.jpg",
+                "text": "小米电视",
+                "tou": "http://localhost:5500/src/assets/details/xiang004.jpg",
+                "name": "醉卧乾坤",
+                "price": "4"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/recommend/22.jpg",
+                "text": "小米电视",
+                "tou": "http://localhost:5500/src/assets/details/xiang001.jpg",
+                "name": "萝卜干干",
+                "price": "5"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/recommend/22.jpg",
+                "text": "小米电视",
+                "tou": "http://localhost:5500/src/assets/details/xiang002.jpg",
+                "name": "那一抹潇洒",
+                "price": "6"
+            }
+        ],
+        [{
+                "img": "http://localhost:5500/src/assets/img/详情/1.jpg"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/img/详情/2.jpg"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/img/详情/3.jpg"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/img/详情/4.jpg"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/img/详情/5.jpg"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/img/详情/6.jpg"
+            },
+            {
+                "img": "http://localhost:5500/src/assets/img/详情/7.jpg"
+            }
+        ],
+        [{
+                "price": "2499",
+                "title": "小米电视",
+                "img": "http://localhost:5500/src/assets/recommend/22.jpg",
+                "checked": true
+            },
+            {
+                "price": "111",
+                "title": "1号",
+                "img": "http://localhost:5500/src/assets/recommend/21.5.jpg",
+                "checked": false
+            },
+            {
+                "price": "222",
+                "title": "2号",
+                "img": "http://localhost:5500/src/assets/recommend/21.jpg",
+                "checked": false
+            }
+        ],
+        {
+            "price": "2499",
+            "title": "小米电视",
+            "img": "http://localhost:5500/src/assets/recommend/22.jpg"
+        }
+    ]
+}
