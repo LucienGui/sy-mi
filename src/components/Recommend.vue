@@ -202,7 +202,6 @@ export default {
   data() {
     return {
       seen: false,
-      listEle: null,
       scrollTop: 0,
       content: [],
       swiperOptions: {
