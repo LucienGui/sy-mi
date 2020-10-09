@@ -154,7 +154,7 @@ export default {
     },
     // axios请求
     created() {
-      let url = `http://127.0.0.1:5500/src/data/CartList.json`;
+      let url = `http://127.0.0.1:5500/dist/data/CartList.json`;
       let that = this;
       console.log("chengg");
       axios

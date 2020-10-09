@@ -165,8 +165,8 @@
     <div class="recommend-household-item">更多米家智能产品></div>
 
     <!-- 图片 -->
-    <div class="recommend-imgs-box">
-      <div class="recommend-imgs" v-for="item in list[6]" :key="item.item">
+    <div class="recommend-images-box">
+      <div class="recommend-images" v-for="item in list[6]" :key="item.item">
         <img :src="item.img" class="recommend-img" />
       </div>
     </div>
@@ -211,7 +211,7 @@ export default {
 
   created() {
     let that = this;
-    let url = "http://localhost:5500/src/data/RecommendList.json";
+    let url = "http://localhost:5500/dist/data/RecommendList.json";
     axios
       .get(url)
       .then(function (respone) {
@@ -260,7 +260,7 @@ export default {
           id:id,
         }
       })
-  },
+    },
   }
 }
 </script>
@@ -481,13 +481,13 @@ export default {
 }
 
 /* 图片 */
-.recommend-imgs-box {
+.recommend-images-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.recommend-imgs {
+.recommend-images {
   width: 49.8%;
 }
 .recommend-img {

@@ -290,7 +290,7 @@ export default {
   },
 // axios请求
     created() {
-      let url = `http://127.0.0.1:5500/src/data/DetailsList${this.$route.query.id}.json`;
+      let url = `http://127.0.0.1:5500/dist/data/DetailsList${this.$route.query.id}.json`;
       let that = this;
       console.log("chengg");
       axios
@@ -299,7 +299,7 @@ export default {
           if (response.data.code == 200) {
             console.log(response);
             that.list = response.data.list;
-            that.list3=response.data.list[3];
+            that.list3 = response.data.list[3];
             that.list33=that.list3[0];
             that.list44=that.list[that.list.length-2]
             console.log(that.list44);

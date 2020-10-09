@@ -152,7 +152,7 @@ export default {
     },
     created() {
         let that = this;
-        let url = "http://localhost:5500/src/data/TlelList.json";
+        let url = "http://localhost:5500/dist/data/TlelList.json";
         axios
         .get(url)
         .then(function (respone) {
@@ -193,11 +193,6 @@ export default {
     flex-grow: 1;
     overflow: auto;
 }
-.tele-box-black{
-    width: 100%;
-    height: 10px;
-    background: #FAFAFA;
-}
 /* 轮播 */
 .top-img {
   width: 100%;
@@ -216,6 +211,11 @@ export default {
 }
 
 /* 商品 */
+.tele-box-black{
+    width: 100%;
+    height: 10px;
+    background: #FAFAFA;
+}
 .tele-content{
     display: flex;
     flex-direction: row;

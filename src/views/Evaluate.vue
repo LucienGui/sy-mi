@@ -57,7 +57,7 @@
                     <p class="evalu-item-des">{{item.des}}</p>
                 </div>
                 <div class="evalu-item-bottom">
-                    <img :src="item.imgs" class="evalu-imgs">
+                    <img :src="item.images" class="evalu-images">
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@ export default {
     },
     created(){
         let that = this;
-        let url = "http://localhost:5500/src/data/Evaluate.json";
+        let url = "http://localhost:5500/dist/data/Evaluate.json";
         axios.get(url)
             .then(function(respone){
                 console.log(respone);
@@ -262,7 +262,7 @@ export default {
 .evalu-item-bottom{
     margin: 10px auto;
 }
-.evalu-imgs{
+.evalu-images{
     width: 100%;
 }
 </style>

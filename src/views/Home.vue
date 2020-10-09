@@ -60,9 +60,9 @@
 
         <!-- 组件 -->
         <!-- <div style="height:100%"> -->
-            <transition :name="rightLeft"> 
+            <!-- <transition :name="rightLeft">  -->
                 <component :is="componentNames"></component>
-            </transition> 
+            <!-- </transition>  -->
         <!-- </div> -->
         <!-- 底部 -->
         <div class="box-bottom">
@@ -139,11 +139,11 @@ export default {
         titleClick(name,num) {
             this.componentNames = name;
             
-            if(this.isnum > num){
-                this.rightLeft = "left"
-            } else {
-                this.rightLeft = "right"
-            }
+            // if(this.isnum > num){
+            //     this.rightLeft = "left"
+            // } else {
+            //     this.rightLeft = "right"
+            // }
 
             this.isnum = num;
             // console.log(this.$route.meta);
@@ -386,7 +386,7 @@ a{
     position: fixed;
     top: 57px;
     width: 100%;
-    height: 80%;
+    height: 82.5%;
     z-index: 4;
     background-color: rgba(0, 0, 0, 0.3);
 }
