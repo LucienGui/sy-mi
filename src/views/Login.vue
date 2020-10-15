@@ -7,7 +7,11 @@
         <div class="login-top1">
             <img src="../assets/小米2.png" />
         </div>
-        <div class="login-top1 itemm">小米账号登录</div>
+        <div class="login-top1 item">小米账号登录</div>
+
+
+
+
         <!-- 账号密码 -->
         <div class="login-top3">
             <div class="login-top2" ref="top2box1">
@@ -19,6 +23,7 @@
                 </div>
             </div>
         </div>
+
         <div class="login-top3">
             <div class="login-top2" ref="top2box2">
                 <input :type="str" placeholder="密码" v-model="passmessage" @focus="fun" />
@@ -30,6 +35,7 @@
                 </div>
             </div>
         </div>
+
         <div class="login-gan" v-if="seen1==1">
             <img src="../assets/感叹号.png" />
             <span>请输入账号</span>
@@ -48,6 +54,12 @@
             <div class="login-listt">立即注册</div>|
             <div class="login-listt">忘记密码？</div>
         </div>
+
+
+
+
+
+
         <div class="login-list-item1">
             <div class="listitem"></div>
             <div>其他方式登录</div>
@@ -151,8 +163,8 @@ export default {
     padding: 15px 20px 0px;
 }
 .login-top img {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     border-radius: 5px;
 }
 .login-top1 img {
@@ -164,18 +176,20 @@ export default {
     display: flex;
     justify-content: center;
 }
-.itemm {
-    font-size: 14px;
-    color: #000000;
-    margin-top: 10px;
+.item {
+    font-size: 1.15rem;
+    color: #000;
+    font-weight: normal;
+    margin-top: 15px;
 }
 
 /* 账号密码 */
+
 .login-top2 {
+    margin-top: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px 0px; */
     font-size: 18px;
     border-bottom: 0.1px solid #b6b6b6;
     height: 55px;
@@ -184,8 +198,7 @@ export default {
     background: none;
     outline: none;
     border: none;
-    margin-left: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .login-gan {
     display: flex;
@@ -242,13 +255,15 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 7px;
+    margin-bottom: 33px;
 }
 .login-listt {
-    margin: 5px;
-    font-size: 14px;
+    margin: 7px;
+    font-size: 16px;
 }
 .login-list-item1 {
+    margin-bottom: 9px;
     display: flex;
     justify-content: space-between;
     padding: 0px 15px;
