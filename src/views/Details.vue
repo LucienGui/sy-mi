@@ -292,7 +292,7 @@ export default {
     created() {
       let url = `http://127.0.0.1:5500/dist/data/DetailsList${this.$route.query.id}.json`;
       let that = this;
-      console.log("chengg");
+      // console.log("chengg");
       axios
         .get(url)
         .then(function (response) {

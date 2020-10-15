@@ -112,7 +112,7 @@
             <div class="kong"></div>
 
 
-            <!-- 遮罩层 -->
+            <!-- 追罩层 -->
             <div class="black" :style="{display:active}"></div>
             <div class="dialog" :style="{display:active}">
                 <div class="dialogbox">
