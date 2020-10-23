@@ -139,9 +139,14 @@ export default {
         titleClick(name,num) {
             this.componentNames = name;
             
-            
+            // if(this.isnum > num){
+            //     this.rightLeft = "left"
+            // } else {
+            //     this.rightLeft = "right"
+            // }
 
             this.isnum = num;
+            // console.log(this.$route.meta);
         },
         //推荐列表切换
         arrowBtn1() {

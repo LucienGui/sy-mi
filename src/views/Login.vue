@@ -7,12 +7,19 @@
         <div class="login-top1">
             <img src="../assets/小米2.png" />
         </div>
-        <div class="login-top1 item">小米账号登录</div>
+        <div class="login-top1 itemm">小米账号登录</div>
 
-
-
-
-        <!-- 账号密码 -->
+        <!-- 中间账号密码&注册方式 -->
+        <div class="user-container-middle">
+             <div class="user-container-usermessage">
+                <div class="user-message-category">
+                    <p @click="changecomponentId(0)" :class="{'typeactive':componentId=='passtypeone'}">账号密码登录</p>
+                    <p @click="changecomponentId(1)" :class="{'typeactive':componentId=='passtypetwo'}">短信验证码登录</p>
+                </div>
+                <component :is="componentId"></component>
+            </div>
+        </div>
+        <!-- 
         <div class="login-top3">
             <div class="login-top2" ref="top2box1">
                 <div class="login-top4">
@@ -23,7 +30,6 @@
                 </div>
             </div>
         </div>
-
         <div class="login-top3">
             <div class="login-top2" ref="top2box2">
                 <input :type="str" placeholder="密码" v-model="passmessage" @focus="fun" />
@@ -35,7 +41,6 @@
                 </div>
             </div>
         </div>
-
         <div class="login-gan" v-if="seen1==1">
             <img src="../assets/感叹号.png" />
             <span>请输入账号</span>
@@ -53,13 +58,10 @@
         <div class="login-list-item">
             <div class="login-listt">立即注册</div>|
             <div class="login-listt">忘记密码？</div>
-        </div>
+        </div> -->
 
 
-
-
-
-
+        
         <div class="login-list-item1">
             <div class="listitem"></div>
             <div>其他方式登录</div>
@@ -94,6 +96,9 @@
 </template>
 
 <script>
+import Passtypeone from "../components/login/Passtypeone.vue"
+import Passtypetwo from "../components/login/Passtypetwo.vue"
+
 export default {
     data() {
         return {
@@ -103,6 +108,7 @@ export default {
             str: "password",
             passmessage: "",
             seen1: 0,
+            componentId:"passtypeone"
         };
     },
     computed:{
@@ -151,20 +157,51 @@ export default {
             this.$refs.top2box1.style="border-bottom:''";
             this.$refs.top2box2.style="border-bottom:''";
         },
+        changecomponentId(index){
+            if(index==0){
+                this.componentId="passtypeone"
+            }else{
+                this.componentId="passtypetwo"
+            }
+        }
+        
+    },
+    components:{
+        "passtypeone":Passtypeone,
+        "passtypetwo":Passtypetwo
     }
 }
 </script>
 
 <style scoped>
 /* 中间 */
+.user-message-category{
+    display: flex;
+    margin: 30px;
+}
+
+.user-message-category p{
+    margin:14px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.user-container-middle{
+    padding: 0 43px;
+}
+.typeactive{
+    color:rgb(255, 103, 0);
+    
+    border-bottom: 2px solid rgb(255, 103, 0)
+}
 .login-top {
     display: flex;
     justify-content: flex-end;
     padding: 15px 20px 0px;
 }
 .login-top img {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     border-radius: 5px;
 }
 .login-top1 img {
@@ -176,20 +213,18 @@ export default {
     display: flex;
     justify-content: center;
 }
-.item {
-    font-size: 1.15rem;
-    color: #000;
-    font-weight: normal;
-    margin-top: 15px;
+.itemm {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 10px;
 }
 
 /* 账号密码 */
-
 .login-top2 {
-    margin-top: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* padding: 10px 0px; */
     font-size: 18px;
     border-bottom: 0.1px solid #b6b6b6;
     height: 55px;
@@ -198,7 +233,8 @@ export default {
     background: none;
     outline: none;
     border: none;
-    font-size: 18px;
+    margin-left: 10px;
+    font-size: 16px;
 }
 .login-gan {
     display: flex;
@@ -255,15 +291,13 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7px;
-    margin-bottom: 33px;
+    margin-top: 10px;
 }
 .login-listt {
-    margin: 7px;
-    font-size: 16px;
+    margin: 5px;
+    font-size: 14px;
 }
 .login-list-item1 {
-    margin-bottom: 9px;
     display: flex;
     justify-content: space-between;
     padding: 0px 15px;
